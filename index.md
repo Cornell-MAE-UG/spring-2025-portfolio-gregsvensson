@@ -13,3 +13,5 @@ Third year Mechanical and Aerospace Engineering student at Cornell University. D
 
 Take a look at 
 <a href="{{ '/projects/' | relative_url }}">my projects</a> and <a href="{{ '/cv/' | relative_url }}">CV</a>.
+
+MY ACTUAL PORTFOLIO: https://gregsvensson.com

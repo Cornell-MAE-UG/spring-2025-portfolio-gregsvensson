@@ -2,7 +2,7 @@
 layout: project
 title: MAE3230
 description: Class project with Graphs
-technologies: [MATLAB, python]
+technologies: 
 image: 
 ---
 
