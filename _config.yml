@@ -1,46 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-
 # Site Settings
-locale                   : "en-US"
-title                    : Your Name
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale: "en-US"
+title: "Greg Svensson"
+title_separator: "-"
+subtitle:
+name: "Greg Svensson"
+description: "Greg Svensson - Projects and CV"
+baseurl: ""        # keep empty for GitHub Pages user/organization sites
+url: ""            # GitHub Pages will fill this automatically
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light # light/default, dark, or aqua
+color_scheme: light  # light/default, dark, or aqua
 
 sass:
   style: compressed
 
-# Outputting
-permalink: /:categories/:title/
+# Output structure
+permalink: pretty   # THIS FIXES YOUR LINKS
 
 collections:
   pages:
     output: true
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/   # All projects under /projects/
 
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-
