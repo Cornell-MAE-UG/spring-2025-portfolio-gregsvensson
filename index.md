@@ -8,7 +8,7 @@ skin: aqua
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/portrait.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "/assets/images/portrait.jpg" | relative_url }}){: class="profile-image"}
 
  
 My name is Greg Svensson, and I am a third year Mechanical and Aerospace Engineering student at Cornell University. I'm on the Drivetrain subteam on Cornell's Baja Racing. Strong hands-on experience in mechanical design and machining. Seeking internship opportunities in automotive, energy, and aerospace industries.
