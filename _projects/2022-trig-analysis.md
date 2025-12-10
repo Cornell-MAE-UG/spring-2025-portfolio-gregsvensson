@@ -1,7 +1,7 @@
 ---
 layout: project
 title: MAE3230
-description: Class project with Graphs
+description:
 technologies: 
 image: 
 ---

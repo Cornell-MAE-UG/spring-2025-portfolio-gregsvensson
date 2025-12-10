@@ -7,6 +7,6 @@ image:
 ---
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
-  <img src="{{ '/assets/wrench1.jpg' | relative_url }}" alt="Wrench 1" style="max-width: 45%; height: auto;">
-  <img src="{{ '/assets/wrench 23.jpg' | relative_url }}" alt="Wrench 23" style="max-width: 45%; height: auto;">
+  <img src="{{ '/assets/wrench1.png' | relative_url }}" alt="Wrench 1" style="max-width: 45%; height: auto;">
+  <img src="{{ '/assets/wrench 23.png' | relative_url }}" alt="Wrench 23" style="max-width: 45%; height: auto;">
 </div>
