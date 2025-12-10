@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Greg Svensson - Resume
-permalink: /Resume/
+permalink: /cv/
 ---
 ## Resume
 
