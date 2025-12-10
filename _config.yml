@@ -3,25 +3,26 @@ locale: "en-US"
 title: "Greg Svensson"
 title_separator: "-"
 subtitle: "Greg Svensson"
+name: "Greg Svensson"
 description: "Greg Svensson - Projects and CV"
-baseurl: ""        # keep empty for GitHub Pages user/organization sites
-url: ""            # GitHub Pages will fill this automatically
+baseurl: "spring-2025-portfolio-gregsvensson"  # CHANGE to your repo name
+url: "https://cornell-mae-ug.github.io"
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light  # light, dark, or aqua
+color_scheme: light
 
 sass:
   style: compressed
 
 # Output structure
-permalink: pretty   # makes URLs like /projects/project-name/
+permalink: /:categories/:title/
 
 # Collections
 collections:
   projects:
     output: true
-    permalink: /projects/:path/   # ensures projects live under /projects/
+    permalink: /:collection/:path/
   pages:
     output: true
 
@@ -33,12 +34,12 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-seo-tag
 
-# Defaults for PDFs and assets
+# Defaults for assets
 defaults:
   - scope:
       path: "assets"
     values:
-      permalink: /assets/:path  # ensures all assets are served correctly
+      permalink: "{{ site.baseurl }}/assets/:path"
